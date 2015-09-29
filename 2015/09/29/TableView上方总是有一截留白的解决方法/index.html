@@ -30,7 +30,7 @@
 
 
 
-  <meta name="keywords" content="Hexo,next" />
+  <meta name="keywords" content="iOS,经验," />
 
 
 
@@ -39,16 +39,16 @@
   <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description" content="博客终于基本上重建好了。。。之前折腾了许多许多。。jekyll虽然是我第一个看的。。但是最后我还是抛弃了它（他，她？）本来这个博客是我打算送给自己的生日礼物的。╮(╯▽╰)╭但是由于拖延症and拖延症and拖延症，我还是终于在10天过后把它建好了。确实折腾了不少东西。像 hexo, markdown, next主题， ssh ,哈哈，原谅我那么无知，总之还是很开心终于有一个自己的博客了。就这样">
+<meta name="description" content="不知道从哪个版本（大概是iOS8）开始，如果你用了autolayout，当你设置某个tableview（或者任意scrowview）顶部约束为顶格的适合，它总会多出来一个留白，其实解决方法很简单，在该viewcontroller的.m文件中把automaticallyAdjustsScrollViewInsets这个属性设置成false就可以了。鬼知道谁设计的留白。。。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2015/09/29/hello-world/index.html">
+<meta property="og:title" content="TableView上方总是有一截留白的解决方法">
+<meta property="og:url" content="http://yoursite.com/2015/09/29/TableView上方总是有一截留白的解决方法/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="博客终于基本上重建好了。。。之前折腾了许多许多。。jekyll虽然是我第一个看的。。但是最后我还是抛弃了它（他，她？）本来这个博客是我打算送给自己的生日礼物的。╮(╯▽╰)╭但是由于拖延症and拖延症and拖延症，我还是终于在10天过后把它建好了。确实折腾了不少东西。像 hexo, markdown, next主题， ssh ,哈哈，原谅我那么无知，总之还是很开心终于有一个自己的博客了。就这样">
-<meta property="og:updated_time" content="2015-09-29T18:15:31.000Z">
+<meta property="og:description" content="不知道从哪个版本（大概是iOS8）开始，如果你用了autolayout，当你设置某个tableview（或者任意scrowview）顶部约束为顶格的适合，它总会多出来一个留白，其实解决方法很简单，在该viewcontroller的.m文件中把automaticallyAdjustsScrollViewInsets这个属性设置成false就可以了。鬼知道谁设计的留白。。。">
+<meta property="og:updated_time" content="2015-09-29T21:53:00.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="博客终于基本上重建好了。。。之前折腾了许多许多。。jekyll虽然是我第一个看的。。但是最后我还是抛弃了它（他，她？）本来这个博客是我打算送给自己的生日礼物的。╮(╯▽╰)╭但是由于拖延症and拖延症and拖延症，我还是终于在10天过后把它建好了。确实折腾了不少东西。像 hexo, markdown, next主题， ssh ,哈哈，原谅我那么无知，总之还是很开心终于有一个自己的博客了。就这样">
+<meta name="twitter:title" content="TableView上方总是有一截留白的解决方法">
+<meta name="twitter:description" content="不知道从哪个版本（大概是iOS8）开始，如果你用了autolayout，当你设置某个tableview（或者任意scrowview）顶部约束为顶格的适合，它总会多出来一个留白，其实解决方法很简单，在该viewcontroller的.m文件中把automaticallyAdjustsScrollViewInsets这个属性设置成false就可以了。鬼知道谁设计的留白。。。">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -58,7 +58,7 @@
   };
 </script>
 
-  <title> Hello World | Hexo </title>
+  <title> TableView上方总是有一截留白的解决方法 | Hexo </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -157,7 +157,7 @@
           
           
             
-              Hello World
+              TableView上方总是有一截留白的解决方法
             
           
         </h1>
@@ -166,7 +166,7 @@
       <div class="post-meta">
         <span class="post-time">
           发表于
-          <time itemprop="dateCreated" datetime="2015-09-29T14:15:31-04:00" content="2015-09-29">
+          <time itemprop="dateCreated" datetime="2015-09-29T17:48:22-04:00" content="2015-09-29">
             2015-09-29
           </time>
         </span>
@@ -177,8 +177,8 @@
           
             <span class="post-comments-count">
               &nbsp; | &nbsp;
-              <a href="/2015/09/29/hello-world/#comments" itemprop="discussionUrl">
-                <span class="post-comments-count ds-thread-count" data-thread-key="2015/09/29/hello-world/" itemprop="commentsCount"></span>
+              <a href="/2015/09/29/TableView上方总是有一截留白的解决方法/#comments" itemprop="discussionUrl">
+                <span class="post-comments-count ds-thread-count" data-thread-key="2015/09/29/TableView上方总是有一截留白的解决方法/" itemprop="commentsCount"></span>
               </a>
             </span>
           
@@ -192,23 +192,31 @@
       
 
       
-        <span itemprop="articleBody"><p>博客终于基本上重建好了。。。之前折腾了许多许多。。jekyll虽然是我第一个看的。。但是最后我还是抛弃了它（他，她？）<br>本来这个博客是我打算送给自己的生日礼物的。╮(╯▽╰)╭但是由于拖延症and拖延症and拖延症，我还是终于在10天过后把它建好了。<br>确实折腾了不少东西。像 hexo, markdown, next主题， ssh ,哈哈，原谅我那么无知，总之还是很开心终于有一个自己的博客了。就这样</p>
+        <span itemprop="articleBody"><p>  不知道从哪个版本（大概是iOS8）开始，如果你用了autolayout，当你设置某个tableview（或者任意scrowview）顶部约束为顶格的适合，它总会多出来一个留白，其实解决方法很简单，在该viewcontroller的.m文件中把automaticallyAdjustsScrollViewInsets这个属性设置成false就可以了。鬼知道谁设计的留白。。。</p>
 </span>
       
     </div>
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/iOS/" rel="tag">#iOS</a>
+          
+            <a href="/tags/经验/" rel="tag">#经验</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/09/29/TableView上方总是有一截留白的解决方法/" rel="prev">TableView上方总是有一截留白的解决方法</a>
-            
           </div>
 
           <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/09/29/hello-world/" rel="next">Hello World</a>
             
           </div>
         </div>
@@ -233,8 +241,8 @@
         
           <div class="comments" id="comments">
             
-              <div class="ds-thread" data-thread-key="2015/09/29/hello-world/"
-                   data-title="Hello World" data-url="http://yoursite.com/2015/09/29/hello-world/">
+              <div class="ds-thread" data-thread-key="2015/09/29/TableView上方总是有一截留白的解决方法/"
+                   data-title="TableView上方总是有一截留白的解决方法" data-url="http://yoursite.com/2015/09/29/TableView上方总是有一截留白的解决方法/">
               </div>
             
           </div>
